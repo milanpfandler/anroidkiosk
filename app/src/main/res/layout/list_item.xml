@@ -1,0 +1,39 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:id="@+id/textView0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="55dp"
+        android:textSize="15dp"
+        android:paddingTop="10dp">
+    </TextView>
+     <TextView android:id="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium">
+    </TextView>
+    <CheckBox
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/checkBox1"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_width="wrap_content">
+    </CheckBox>
+</RelativeLayout>

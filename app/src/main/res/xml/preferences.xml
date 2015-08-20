@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+            android:title="@string/pref_ChangeUnlockCode"
+            android:key="pref_UnlockCode"
+            android:summary="Change Unlock code"
+            android:inputType="numberPassword"
+        android:maxLength="6"/>
+        <EditTextPreference
+            android:title="@string/pref_ChangeWebwiewURL"
+            android:key="pref_ChangeWebviewURL"
+            android:summary="Change Webview URL"
+            android:defaultValue="http://">
+        </EditTextPreference>
+
+    <ListPreference
+        android:title="@string/pref_ClickAttempts"
+        android:summary="Taps on screen to unlock"
+        android:key="pref_ClickAttempts"
+        android:defaultValue="5"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+    <ListPreference
+        android:title="@string/pref_TimeToUnlock"
+        android:summary="Period in seconds to unlock"
+        android:key="pref_TimeToUnlock"
+        android:defaultValue="3"
+        android:entries="@array/TouchTimeStr"
+        android:entryValues="@array/TouchTimeValue" />
+
+    <Preference
+        android:title="@string/pref_AllowedApps"
+        android:key="pref_AllowedApps"
+        android:summary="Choose applications"/>
+
+        <Preference
+            android:title="@string/pref_Exit"
+            android:key="pref_Exit"
+            android:summary="Exit application"/>
+
+    </PreferenceScreen>

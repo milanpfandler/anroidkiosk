@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Android Kiosk Mode Example</string>
-    <string name="hello_world">Hello Kiosk Mode!</string>
-    <string name="hiddenBreakoutButton">Hidden Exit Button!</string>
+    <string name="app_name">Android Kiosk</string>
+    <string name="pref_ChangeUnlockCode">Unlock code</string>
+    <string name="pref_ChangeWebwiewURL">Webview URL</string>
+    <string name="pref_ClickAttempts">Tap on screen to unlock</string>
+    <string name="pref_TimeToUnlock">Time to unlock</string>
+    <string name="pref_AllowedApps">Choose allowed applications</string>
+    <string name="pref_Exit">Exit application</string>
+    <string name="menu_settings">Settings</string>
+
 
 </resources>

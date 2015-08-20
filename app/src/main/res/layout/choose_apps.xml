@@ -1,0 +1,24 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".Main" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <ListView
+        android:divider="#000"
+        android:dividerHeight="0.8dp"
+        android:id="@+id/listView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    </ListView>
+    <Button
+        android:id="@+id/button1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Check Selected"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </Button>
+</RelativeLayout>
